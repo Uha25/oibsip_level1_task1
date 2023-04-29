@@ -1,0 +1,155 @@
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul li a {
+	padding: 10px;
+}
+
+main {
+	padding: 20px;
+	font-weight: bolder;
+}
+#home {
+	background-color: #f5f5f5;
+	text-align: center;
+	padding: 100px 0;
+}
+
+#home h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#home p {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.cta {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+}
+
+.cta:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* About section styles */
+#about {
+	background-color: #fff;
+	padding: 100px 0;
+}
+
+#about h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+/* Contact section styles */
+#contact {
+	background-color: #f5f5f5;
+	padding: 20px 20px;
+}
+
+#contact h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+form textarea {
+	height: 200px;
+}
+
+form button {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+}
+
+form button:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Login section styles */
+#login {
+	background-color: #fff;
+	padding: 100px 0;
+}
+
+#login h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
